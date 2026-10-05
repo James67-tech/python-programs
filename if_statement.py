@@ -6,7 +6,7 @@ else:
 	print("user is not online")
 
 
-age = 20
+age = int(input("Enter your age : "))
 if age > 100 or age < 0:
     print("user is not eligible to vote")
 elif age >= 18:
